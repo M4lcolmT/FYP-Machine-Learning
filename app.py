@@ -1,7 +1,6 @@
 import joblib
 import numpy as np
 import pandas as pd
-import gensim.downloader as api
 from gensim.models import KeyedVectors
 from sentence_transformers import SentenceTransformer
 import streamlit as st
