@@ -1,0 +1,401 @@
+Job Title,Skill,Frequency
+Data Scientist,Python,2735
+Data Scientist,SQL,2079
+Data Scientist,Machine Learning,1635
+Data Scientist,Data Science,1557
+Data Scientist,R,1486
+Data Scientist,Statistics,1002
+Data Scientist,Communication,903
+Data Scientist,Data Analysis,853
+Data Scientist,Data Visualization,780
+Data Scientist,Tableau,741
+Data Scientist,Spark,647
+Data Scientist,AWS,620
+Data Scientist,Machine learning,601
+Data Scientist,Data Analytics,497
+Data Scientist,Hadoop,497
+Data Scientist,Data analysis,493
+Data Scientist,Data Mining,442
+Data Scientist,Java,428
+Data Scientist,Teamwork,421
+Data Scientist,Artificial Intelligence,403
+Data Scientist,Collaboration,394
+Data Scientist,PyTorch,394
+Data Scientist,Problem Solving,386
+Data Scientist,Computer Science,385
+Data Scientist,Data visualization,379
+Data Scientist,Project Management,374
+Data Scientist,Azure,373
+Data Scientist,Data science,351
+Data Scientist,TensorFlow,350
+Data Scientist,Power BI,349
+Data Scientist,Mathematics,326
+Data Scientist,Natural Language Processing,326
+Data Scientist,Leadership,325
+Data Scientist,Deep Learning,322
+Data Scientist,Data Management,313
+Data Scientist,Communication Skills,310
+Data Scientist,SAS,304
+Data Scientist,Data Engineering,303
+Data Scientist,Scala,301
+Data Scientist,Statistical Analysis,294
+Data Scientist,Business Intelligence,290
+Data Scientist,Cloud Computing,278
+Data Scientist,Data Modeling,269
+Data Scientist,Pandas,263
+Data Scientist,Communication skills,253
+Data Scientist,Git,250
+Data Scientist,Engineering,243
+Data Scientist,NLP,235
+Data Scientist,Analytics,234
+Data Scientist,Big Data,234
+Data Engineer,Python,2328
+Data Engineer,SQL,1945
+Data Engineer,AWS,1245
+Data Engineer,Java,1084
+Data Engineer,Data Engineering,1077
+Data Engineer,Spark,1011
+Data Engineer,Snowflake,874
+Data Engineer,Kafka,785
+Data Engineer,Scala,775
+Data Engineer,ETL,713
+Data Engineer,Hadoop,628
+Data Engineer,Azure,587
+Data Engineer,Machine Learning,562
+Data Engineer,NoSQL,508
+Data Engineer,Agile,502
+Data Engineer,Data Warehousing,497
+Data Engineer,Airflow,491
+Data Engineer,Kubernetes,483
+Data Engineer,Data Modeling,446
+Data Engineer,Redshift,442
+Data Engineer,Communication,434
+Data Engineer,Docker,427
+Data Engineer,Hive,424
+Data Engineer,MySQL,385
+Data Engineer,Git,376
+Data Engineer,Data engineering,371
+Data Engineer,Tableau,368
+Data Engineer,Data Pipelines,364
+Data Engineer,Troubleshooting,353
+Data Engineer,Cloud Computing,352
+Data Engineer,Linux,351
+Data Engineer,DevOps,345
+Data Engineer,EMR,343
+Data Engineer,PySpark,334
+Data Engineer,GCP,331
+Data Engineer,Databricks,309
+Data Engineer,Data Analytics,304
+Data Engineer,S3,299
+Data Engineer,Apache Spark,295
+Data Engineer,Computer Science,286
+Data Engineer,Data Science,283
+Data Engineer,Machine learning,280
+Data Engineer,Data modeling,276
+Data Engineer,Cassandra,274
+Data Engineer,Data Analysis,272
+Data Engineer,Data Visualization,270
+Data Engineer,Data warehousing,257
+Data Engineer,Big Data,256
+Data Engineer,Cloud computing,248
+Data Engineer,R,245
+Data Analyst,SQL,1778
+Data Analyst,Data Analysis,1306
+Data Analyst,Python,1106
+Data Analyst,Tableau,1014
+Data Analyst,Data Visualization,865
+Data Analyst,Communication,800
+Data Analyst,R,709
+Data Analyst,Power BI,618
+Data Analyst,Data analysis,594
+Data Analyst,Excel,588
+Data Analyst,Reporting,484
+Data Analyst,Data Analytics,448
+Data Analyst,Statistics,421
+Data Analyst,Project Management,409
+Data Analyst,Data visualization,409
+Data Analyst,Data Management,391
+Data Analyst,Problem Solving,383
+Data Analyst,Teamwork,383
+Data Analyst,Business Intelligence,372
+Data Analyst,Data Mining,343
+Data Analyst,Data Warehousing,295
+Data Analyst,Communication Skills,293
+Data Analyst,Data Governance,289
+Data Analyst,Analytical Skills,282
+Data Analyst,Machine Learning,273
+Data Analyst,SAS,273
+Data Analyst,Data Modeling,269
+Data Analyst,Data Science,254
+Data Analyst,Collaboration,251
+Data Analyst,Statistical Analysis,247
+Data Analyst,Data Quality,241
+Data Analyst,Attention to Detail,226
+Data Analyst,Microsoft Excel,217
+Data Analyst,Analytical skills,209
+Data Analyst,PowerBI,205
+Data Analyst,Data Integration,200
+Data Analyst,Communication skills,199
+Data Analyst,Data Interpretation,190
+Data Analyst,Project management,189
+Data Analyst,ETL,183
+Data Analyst,Microsoft Office Suite,173
+Data Analyst,Data mining,167
+Data Analyst,Problemsolving,163
+Data Analyst,Microsoft Office,156
+Data Analyst,Computer Science,153
+Data Analyst,Critical Thinking,152
+Data Analyst,Time Management,150
+Data Analyst,Bachelor's Degree,150
+Data Analyst,Mathematics,148
+Data Analyst,Databases,147
+Data Manager,SQL,392
+Data Manager,Python,387
+Data Manager,Communication,377
+Data Manager,Project Management,313
+Data Manager,Leadership,238
+Data Manager,Data Management,204
+Data Manager,Data Analysis,204
+Data Manager,AWS,202
+Data Manager,Collaboration,159
+Data Manager,Problem Solving,155
+Data Manager,Machine Learning,154
+Data Manager,Agile,152
+Data Manager,Spark,149
+Data Manager,Teamwork,149
+Data Manager,R,149
+Data Manager,Hadoop,146
+Data Manager,Tableau,146
+Data Manager,Snowflake,145
+Data Manager,Data Visualization,145
+Data Manager,Data Governance,143
+Data Manager,Data Analytics,136
+Data Manager,Data Engineering,136
+Data Manager,Project management,132
+Data Manager,Java,123
+Data Manager,Data Warehousing,122
+Data Manager,Communication Skills,118
+Data Manager,Bachelor's Degree,118
+Data Manager,Data Science,118
+Data Manager,Engineering,117
+Data Manager,NoSQL,113
+Data Manager,Scala,110
+Data Manager,Power BI,107
+Data Manager,Data analysis,102
+Data Manager,Redshift,102
+Data Manager,Kafka,102
+Data Manager,Data Modeling,99
+Data Manager,Reporting,99
+Data Manager,Hive,99
+Data Manager,Business Intelligence,92
+Data Manager,Microsoft Office Suite,90
+Data Manager,Cloud Computing,89
+Data Manager,Risk Management,87
+Data Manager,Data Integration,86
+Data Manager,Data Quality,85
+Data Manager,MySQL,84
+Data Manager,Computer Science,83
+Data Manager,Attention to Detail,83
+Data Manager,Analytical Skills,82
+Data Manager,Communication skills,81
+Data Manager,Data management,79
+Others,Python,244
+Others,SQL,236
+Others,Communication,211
+Others,R,168
+Others,Data Analysis,164
+Others,Tableau,162
+Others,Power BI,158
+Others,Teamwork,122
+Others,Data Visualization,114
+Others,A/B Testing,106
+Others,Hypothesis Testing,102
+Others,Collaboration,99
+Others,ETL,91
+Others,Medical Laboratory Technician,90
+Others,Medical Technology,90
+Others,Problem Solving,87
+Others,Data Management,86
+Others,Medical Technologist,85
+Others,Troubleshooting,83
+Others,Quality Control,80
+Others,Communication skills,73
+Others,Communication Skills,71
+Others,Chemistry,69
+Others,Statistical Modeling,69
+Others,Microbiology,67
+Others,ASCP,65
+Others,Customer service,64
+Others,Hematology,63
+Others,Data analysis,63
+Others,Machine Learning,62
+Others,Statistical Techniques,60
+Others,Data Manipulation,58
+Others,Azure,57
+Others,Quality control,56
+Others,AWS,55
+Others,Leadership,54
+Others,Training,54
+Others,ETL Processes,54
+Others,Reporting,53
+Others,Medical Laboratory Science,52
+Others,Problemsolving,50
+Others,Phlebotomy,47
+Others,Data visualization,47
+Others,Customer Service,46
+Others,Bachelor's degree,45
+Others,Problem solving,44
+Others,Data Interpretation,43
+Others,Adaptability,42
+Others,Data Quality,42
+Others,Documentation,41
+Machine Learning Engineer,Python,544
+Machine Learning Engineer,Machine Learning,520
+Machine Learning Engineer,PyTorch,324
+Machine Learning Engineer,TensorFlow,269
+Machine Learning Engineer,AWS,214
+Machine Learning Engineer,Deep Learning,183
+Machine Learning Engineer,Java,181
+Machine Learning Engineer,Azure,159
+Machine Learning Engineer,Kubernetes,144
+Machine Learning Engineer,Scala,142
+Machine Learning Engineer,Spark,137
+Machine Learning Engineer,Docker,136
+Machine Learning Engineer,Communication,133
+Machine Learning Engineer,SQL,122
+Machine Learning Engineer,Tensorflow,122
+Machine Learning Engineer,Cloud Computing,109
+Machine Learning Engineer,Pandas,109
+Machine Learning Engineer,Data Science,105
+Machine Learning Engineer,Agile,102
+Machine Learning Engineer,Data Preparation,100
+Machine Learning Engineer,GCP,99
+Machine Learning Engineer,Model Deployment,89
+Machine Learning Engineer,Natural Language Processing,88
+Machine Learning Engineer,Jupyter,87
+Machine Learning Engineer,Data Pipelines,86
+Machine Learning Engineer,Computer Science,86
+Machine Learning Engineer,MLOps,86
+Machine Learning Engineer,Numba,85
+Machine Learning Engineer,Software Development,84
+Machine Learning Engineer,Software Engineering,80
+Machine Learning Engineer,Generative AI,78
+Machine Learning Engineer,Feature Engineering,78
+Machine Learning Engineer,Collaboration,78
+Machine Learning Engineer,Google Cloud Platform,74
+Machine Learning Engineer,Model Evaluation,74
+Machine Learning Engineer,Dask,73
+Machine Learning Engineer,Scikitlearn,73
+Machine Learning Engineer,Machine learning,71
+Machine Learning Engineer,DataBricks,70
+Machine Learning Engineer,Torch,69
+Machine Learning Engineer,DevOps,68
+Machine Learning Engineer,MLFlow,68
+Machine Learning Engineer,C++,67
+Machine Learning Engineer,Artificial Intelligence,67
+Machine Learning Engineer,Project Management,67
+Machine Learning Engineer,Statistics,67
+Machine Learning Engineer,Agile Methodologies,65
+Machine Learning Engineer,Data Analysis,65
+Machine Learning Engineer,Data Engineering,64
+Machine Learning Engineer,Distributed Computing,64
+Data Architect,SQL,226
+Data Architect,Python,195
+Data Architect,Data Architecture,150
+Data Architect,AWS,149
+Data Architect,Data Modeling,143
+Data Architect,Azure,121
+Data Architect,Data Governance,120
+Data Architect,Data Warehousing,102
+Data Architect,Communication,99
+Data Architect,Snowflake,91
+Data Architect,Data Architect,88
+Data Architect,Hadoop,85
+Data Architect,Data Integration,84
+Data Architect,Data Engineering,83
+Data Architect,Data Analytics,83
+Data Architect,ETL,77
+Data Architect,Data architecture,76
+Data Architect,Machine Learning,72
+Data Architect,Spark,69
+Data Architect,Java,67
+Data Architect,Data Management,67
+Data Architect,Computer Science,66
+Data Architect,Data Quality,65
+Data Architect,Data Security,64
+Data Architect,Data modeling,62
+Data Architect,NoSQL,61
+Data Architect,Data Visualization,61
+Data Architect,Scala,60
+Data Architect,Power BI,59
+Data Architect,Tableau,59
+Data Architect,Kafka,59
+Data Architect,Business Intelligence,58
+Data Architect,GCP,56
+Data Architect,Data governance,55
+Data Architect,Databricks,54
+Data Architect,Collaboration,52
+Data Architect,SQL Server,50
+Data Architect,DevOps,50
+Data Architect,Data Analysis,48
+Data Architect,Big Data,47
+Data Architect,Data warehousing,46
+Data Architect,Agile,46
+Data Architect,CI/CD,44
+Data Architect,Data Pipelines,43
+Data Architect,Leadership,43
+Data Architect,Cloud Computing,41
+Data Architect,Azure Data Factory,40
+Data Architect,Data integration,40
+Data Architect,Communication Skills,39
+Data Architect,Project Management,38
+Database Administrator,SQL,241
+Database Administrator,Database Administration,130
+Database Administrator,Oracle,114
+Database Administrator,SQL Server,104
+Database Administrator,Python,86
+Database Administrator,Troubleshooting,78
+Database Administrator,Linux,77
+Database Administrator,AWS,75
+Database Administrator,Communication,66
+Database Administrator,PL/SQL,62
+Database Administrator,MySQL,61
+Database Administrator,Performance Tuning,55
+Database Administrator,PostgreSQL,53
+Database Administrator,ETL,52
+Database Administrator,Data Modeling,52
+Database Administrator,SSIS,49
+Database Administrator,Disaster Recovery,48
+Database Administrator,Azure,46
+Database Administrator,Database Design,44
+Database Administrator,Teamwork,43
+Database Administrator,Java,43
+Database Administrator,Communication Skills,41
+Database Administrator,Computer Science,41
+Database Administrator,TSQL,39
+Database Administrator,Project Management,39
+Database Administrator,Database Security,39
+Database Administrator,SSRS,38
+Database Administrator,MongoDB,37
+Database Administrator,Database Management,37
+Database Administrator,Data Warehousing,36
+Database Administrator,Database administration,36
+Database Administrator,Data modeling,36
+Database Administrator,Database design,35
+Database Administrator,Automation,35
+Database Administrator,Documentation,35
+Database Administrator,Data Analysis,33
+Database Administrator,Data Integrity,33
+Database Administrator,Microsoft SQL Server,32
+Database Administrator,Git,32
+Database Administrator,Performance tuning,32
+Database Administrator,NoSQL,32
+Database Administrator,Stored Procedures,31
+Database Administrator,Communication skills,30
+Database Administrator,Windows,30
+Database Administrator,PowerShell,30
+Database Administrator,DevOps,30
+Database Administrator,Triggers,30
+Database Administrator,Ansible,29
+Database Administrator,High Availability,28
+Database Administrator,Data Security,27

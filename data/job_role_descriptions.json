@@ -1,0 +1,119 @@
+[
+    {
+        "title": "Machine Learning Engineer",
+        "description": "You design intelligent systems that learn from data to make predictions or automate decisions. Whether it's recommending what users might like next or powering autonomous vehicles, you build, train, and optimize algorithms that get smarter over time.",
+        "action_steps": [
+            "Learn Python - Focus on libraries like NumPy, pandas, and scikit-learn.",
+            "Master ML frameworks - Gain hands-on experience with TensorFlow or PyTorch.",
+            "Understand statistics & probability - Use platforms like Khan Academy or Coursera.",
+            "Build mini-projects - Try image classification, spam detection, or sentiment analysis.",
+            "Take courses in ML/AI - Consider certifications from Google, DeepLearning.ai, or Udemy.",
+            "Create a GitHub portfolio - Share your models, code, and documentation."
+        ]
+    },
+    {
+        "title": "Data Engineer",
+        "description": "You build and maintain the infrastructure that moves data from raw sources to data scientists and analysts. Your work ensures data flows efficiently, securely, and reliably across platforms and systems.",
+        "action_steps": [
+            "Learn SQL and Python - Essential for querying and manipulating data.",
+            "Get hands-on with ETL pipelines - Use Apache Airflow or Talend for practice.",
+            "Understand big data tools - Learn Apache Spark, Hadoop, and Kafka.",
+            "Explore cloud services - Focus on AWS (Glue, Redshift), Azure (Data Factory), or GCP.",
+            "Practice with real-world datasets - Build mini data lakes or warehouses.",
+            "Use Docker and Git - For containerizing and managing your data tools."
+        ]
+    },
+    {
+        "title": "Data Scientist",
+        "description": "You turn data into insights through exploration, analysis, and predictive modeling. You work with stakeholders to identify problems and deliver data-driven solutions that guide strategic decisions.",
+        "action_steps": [
+            "Master statistics and data exploration - Learn distributions, hypothesis testing, and EDA techniques.",
+            "Practice Python or R - Focus on data wrangling, visualization, and modeling.",
+            "Get good at data cleaning - Use pandas, numpy, or dplyr in R.",
+            "Build regression/classification models - Use datasets from Kaggle.",
+            "Learn ML basics - Use scikit-learn or XGBoost to start.",
+            "Document your projects - Create clear Jupyter notebooks explaining your approach."
+        ]
+    },
+    {
+        "title": "Data Architect",
+        "description": "You're the architect of the data ecosystem. You design how data is collected, stored, accessed, and secured to support scalable analytics across an organization.",
+        "action_steps": [
+            "Learn data modeling - Understand ER diagrams, normalization, star/snowflake schemas.",
+            "Master SQL and NoSQL - Explore MySQL, PostgreSQL, MongoDB, Cassandra.",
+            "Dive into cloud storage - Learn about AWS S3, Google BigQuery, or Azure Synapse.",
+            "Understand system architecture - Learn how databases interact with applications.",
+            "Explore data governance & security - Study GDPR, encryption, and access controls.",
+            "Practice designing schemas - Build mock projects with multiple data sources."
+        ]
+    },
+    {
+        "title": "Data Analyst",
+        "description": "You interpret data to help businesses make better decisions. You create dashboards, reports, and visualizations that turn complex data into meaningful stories.",
+        "action_steps": [
+            "Learn Excel and SQL - Essential for cleaning, querying, and summarizing data.",
+            "Practice with visualization tools - Tableau, Power BI, or Google Data Studio.",
+            "Study business metrics - Learn KPIs, ROI, customer lifetime value, etc.",
+            "Analyze datasets - Use open datasets to create mock reports.",
+            "Work on communication - Translate data findings into clear business insights.",
+            "Use pivot tables and dashboards - Build interactive, dynamic reports."
+        ]
+    },
+    {
+        "title": "Database Administrator (DBA)",
+        "description": "You manage and safeguard an organization's databases. You handle installation, configuration, upgrades, and performance tuning while ensuring the data is available and secure.",
+        "action_steps": [
+            "Learn DBMS platforms - Start with MySQL, PostgreSQL, or Oracle DB.",
+            "Understand indexing and query optimization - Learn how to make queries faster.",
+            "Study security practices - User permissions, backups, encryption.",
+            "Practice backup and recovery - Simulate failure scenarios and recovery processes.",
+            "Monitor performance - Use tools like pgAdmin, Oracle Enterprise Manager.",
+            "Explore Linux basics - Many DBAs work in Unix/Linux environments."
+        ]
+    },
+    {
+        "title": "Data Manager",
+        "description": "You oversee the overall flow, accuracy, and governance of data within an organization. You coordinate data teams, manage compliance, and ensure data supports strategic initiatives.",
+        "action_steps": [
+            "Understand data governance - Learn frameworks like DAMA-DMBOK.",
+            "Develop leadership skills - Coordinate between business and tech teams.",
+            "Know tools used in data management - Collibra, Informatica, Microsoft Purview.",
+            "Study compliance standards - GDPR, HIPAA, and data quality frameworks.",
+            "Work on documentation - Create SOPs, data dictionaries, and audit logs.",
+            "Take project management courses - Learn Agile, Scrum, or PMP basics."
+        ]
+    },
+    {
+        "title": "Business Intelligence Analyst",
+        "description": "You build dashboards and reports that allow businesses to track performance metrics and spot trends quickly.",
+        "action_steps": [
+            "Learn Power BI or Tableau for dashboard creation.",
+            "Use SQL for data extraction and transformation.",
+            "Work on sample datasets to simulate business problems.",
+            "Study KPI frameworks used in marketing, sales, and operations.",
+            "Focus on storytelling through visual design."
+        ]
+    },
+    {
+        "title": "Business Analyst",
+        "description": "You bridge the gap between business needs and technical teams. You gather requirements and translate them into solutions that support business growth.",
+        "action_steps": [
+            "Learn how to write BRDs (Business Requirement Documents).",
+            "Understand business process modeling (BPMN).",
+            "Use tools like Excel, Lucidchart, and SQL for light analysis.",
+            "Practice stakeholder interviews and requirement gathering.",
+            "Study product lifecycle and Agile methodologies."
+        ]
+    },
+    {
+        "title": "Statistician",
+        "description": "You apply mathematical theories to collect, analyze, and interpret data. Statisticians often work in health, government, and academic research settings.",
+        "action_steps": [
+            "Study probability, inferential statistics, and sampling methods.",
+            "Learn R or SAS for statistical modeling.",
+            "Practice hypothesis testing, regression, ANOVA.",
+            "Explore public datasets for research projects.",
+            "Consider pursuing a master's or PhD for advanced opportunities."
+        ]
+    }
+]
