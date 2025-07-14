@@ -1,0 +1,7 @@
+joblib
+numpy
+pandas
+gensim
+sentence-transformers
+streamlit
+matplotlib
