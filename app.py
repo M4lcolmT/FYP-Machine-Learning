@@ -1,7 +1,7 @@
 import joblib
 import numpy as np
 import pandas as pd
-from gensim.downloader import api
+import gensim.downloader as api
 from sentence_transformers import SentenceTransformer
 import streamlit as st
 import json
@@ -49,7 +49,8 @@ def load_top_skills_csv():
 
 # Load components
 model, label_encoder = load_model_and_encoder()
-fasttext_vectors = load_fasttext()
+with st.spinner("⚙️ Loading FastText model... please wait (~3 mins)"):
+    fasttext_vectors = load_fasttext()
 sentence_model = load_sentence_transformer()
 
 available_skills = load_skills_list()
