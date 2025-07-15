@@ -22,7 +22,7 @@ def load_model_and_encoder():
 # additional modification to allow numpy.load to handle pickled objects
 @st.cache_resource
 def load_fasttext():
-    return KeyedVectors.load("models/fasttext_subword_300.kv", allow_pickle=True)
+    return KeyedVectors.load("models/fasttext_subword_300.kv")
 
 @st.cache_resource
 def load_sentence_transformer():
