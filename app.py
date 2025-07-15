@@ -19,6 +19,7 @@ def load_model_and_encoder():
     label_encoder = joblib.load("embeddings_labels/label_encoder.pkl")
     return model, label_encoder
 
+# additional modification to allow numpy.load to handle pickled objects
 @st.cache_resource
 def load_fasttext():
     return KeyedVectors.load("models/fasttext_subword_300.kv", allow_pickle=True)
