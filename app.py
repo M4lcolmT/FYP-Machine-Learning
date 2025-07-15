@@ -49,8 +49,7 @@ def load_top_skills_csv():
 
 # Load components
 model, label_encoder = load_model_and_encoder()
-with st.markdown("⚙️ Loading FastText model... please wait (~3 mins)"):
-    fasttext_vectors = load_fasttext()
+fasttext_vectors = load_fasttext()
 sentence_model = load_sentence_transformer()
 
 available_skills = load_skills_list()
