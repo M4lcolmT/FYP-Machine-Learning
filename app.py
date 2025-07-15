@@ -226,10 +226,10 @@ if st.session_state.get("predicted"):
     display_role_info(job_title, job_role_descriptions)
 
     if job_title == "Others":
-        st.markdown("##### 🔎 Explore Some Suggested Roles")
-        alt_roles = ["Business Intelligence Analyst", "Business Analyst", "Statistician"]
-        selected_alt_role = st.selectbox("📌 Choose a role to explore:", alt_roles)
-        display_role_info(selected_alt_role, job_role_descriptions)
+        with st.expander("🔎 Explore Other Potential Roles"):
+            alt_roles = ["Business Intelligence Analyst", "Business Analyst", "Statistician"]
+            alt = st.selectbox("Choose a role to explore:", alt_roles)
+            display_role_info(alt, job_role_descriptions)
 
 # Footer
 st.markdown("---")
