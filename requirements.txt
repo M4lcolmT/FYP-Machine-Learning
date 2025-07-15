@@ -1,8 +1,8 @@
 joblib
-numpy==2.2.0
+numpy
 pandas
 gensim
 sentence-transformers
 streamlit
 matplotlib
-scipy==1.11.4
+scipy
