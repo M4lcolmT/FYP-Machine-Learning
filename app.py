@@ -27,7 +27,7 @@ def load_fasttext():
     np.load = lambda *a, **k: original_np_load(*a, allow_pickle=True, **k)
 
     try:
-        model = KeyedVectors.load("fasttext_subword_300.kv", mmap=None)
+        model = KeyedVectors.load("models/fasttext_subword_300.kv", mmap=None)
     finally:
         np.load = original_np_load  # Restore original np.load
 
