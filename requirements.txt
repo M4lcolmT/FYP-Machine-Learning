@@ -1,5 +1,5 @@
 joblib
-numpy==1.19.0
+numpy==2.2.0
 pandas
 gensim
 sentence-transformers
