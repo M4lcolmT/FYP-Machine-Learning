@@ -49,7 +49,7 @@ def load_top_skills_csv():
 
 # Load components
 model, label_encoder = load_model_and_encoder()
-with st.spinner("⚙️ Loading FastText model... please wait (~3 mins)"):
+with st.markdown("⚙️ Loading FastText model... please wait (~3 mins)"):
     fasttext_vectors = load_fasttext()
 sentence_model = load_sentence_transformer()
 
@@ -106,7 +106,7 @@ def display_role_info(job_title, all_roles):
         for step in match["action_steps"]:
             st.markdown(f"✅ {step}")
     else:
-        st.warning("No role info available.")
+        st.warning("😔 You may not possess the required skills for any of the listed roles. Consider exploring other data-related positions.")
 
 def plot_top_skills_bar(job_title, top_n):
     df = top_skills_df[top_skills_df["Job Title"] == job_title].sort_values("Frequency", ascending=False).head(top_n)
@@ -207,7 +207,7 @@ if st.session_state.get("predicted"):
     st.subheader("📋 Skills Evaluation")
 
     st.markdown("##### 🔎 Top 15 Skills Match")
-    st.info(f"✅ You’re aligned with {top_n_matched}/{total_top_n} of the most critical skills for the {job_title} role.")
+    st.info(f"✅ You're aligned with {top_n_matched}/{total_top_n} of the most critical skills for the {job_title} role.")
 
     if top_n_matched >= 13:
         st.success(f"🎉 Excellent! You possess most of the core skills for the `{job_title}` role.")
@@ -226,7 +226,7 @@ if st.session_state.get("predicted"):
     display_role_info(job_title, job_role_descriptions)
 
     if job_title == "Others":
-        with st.expander("🔎 Explore Other Potential Roles"):
+        with st.markdown("##### 🔎 Explore Other Potential Roles"):
             alt_roles = ["Business Intelligence Analyst", "Business Analyst", "Statistician"]
             alt = st.selectbox("Choose a role to explore:", alt_roles)
             display_role_info(alt, job_role_descriptions)
