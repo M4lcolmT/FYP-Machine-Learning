@@ -1,7 +1,7 @@
 import joblib
 import numpy as np
 import pandas as pd
-from gensim.models import KeyedVectors
+from gensim.downloader import api
 from sentence_transformers import SentenceTransformer
 import streamlit as st
 import json
@@ -21,7 +21,7 @@ def load_model_and_encoder():
 
 @st.cache_resource
 def load_fasttext():
-    return KeyedVectors.load("models/fasttext_subword_300.kv")
+    return api.load('fasttext-wiki-news-subwords-300')
 
 
 @st.cache_resource
