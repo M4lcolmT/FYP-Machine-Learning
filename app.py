@@ -21,8 +21,7 @@ def load_model_and_encoder():
 
 @st.cache_resource
 def load_fasttext():
-    model = KeyedVectors.load("models/fasttext_subword_300.kv", mmap='r')
-    return model
+    return KeyedVectors.load("models/fasttext_subword_300.kv")
 
 
 @st.cache_resource
