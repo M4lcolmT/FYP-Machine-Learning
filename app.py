@@ -21,7 +21,7 @@ def load_model_and_encoder():
 
 @st.cache_resource
 def load_fasttext():
-    return KeyedVectors.load("models/fasttext_subword_300.kv")
+    return KeyedVectors.load("models/fasttext_subword_300.kv", allow_pickle=True)
 
 @st.cache_resource
 def load_sentence_transformer():
