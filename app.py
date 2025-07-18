@@ -5,13 +5,12 @@ import gensim.downloader as api
 from sentence_transformers import SentenceTransformer
 import streamlit as st
 import json
-from collections import Counter
 import matplotlib.pyplot as plt
 
 # ------------------------------
 # Load cached resources
 # ------------------------------
-model_path = "models/best_opt_svm_model_proba_class_weighted.pkl"
+model_path = "models/best_opt_xgb_class_weighted.pkl"
 
 @st.cache_resource
 def load_model_and_encoder():
