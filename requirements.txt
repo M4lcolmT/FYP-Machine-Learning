@@ -6,3 +6,4 @@ sentence-transformers
 streamlit
 matplotlib
 scipy==1.11.4
+xgboost
