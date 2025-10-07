@@ -218,12 +218,6 @@ if st.session_state.get("predicted"):
     else:
         st.error(f"🚀 You may need to strengthen your skillset. Check the **Top Skills for This Role** section below to see which skills to focus on.")
 
-    st.markdown(
-        "> 📘 **Tip:** Scroll down to the next section to explore the most in-demand skills for this role "
-        "and identify what you can learn next."
-    )
-    # ---------------------------------------------------------
-
     # Top skill bar chart
     st.markdown("---")
     st.subheader("📊 Top Skills for This Role")
