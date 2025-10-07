@@ -22,7 +22,6 @@ def load_model_and_encoder():
 def load_fasttext():
     return api.load('fasttext-wiki-news-subwords-300')
 
-
 @st.cache_resource
 def load_sentence_transformer():
     return SentenceTransformer('all-MiniLM-L6-v2')
@@ -85,7 +84,7 @@ def get_missing_skills(job_title, user_skills_list):
     user_set = set(s.lower() for s in user_skills_list)
     return [s for s in required if s.lower() not in user_set]
 
-def get_top_n_skills(job_title, n=15):
+def get_top_n_skills(job_title, n=10):
     df = top_skills_df[top_skills_df["Job Title"] == job_title]
     return df.sort_values("Frequency", ascending=False).head(n)["Skill"].tolist()
 
@@ -147,7 +146,7 @@ st.markdown("---")
 st.markdown("## 🧰 Step 2: Select Your Skills")
 st.write("_You can select up to 15 skills to represent your strongest hard and soft skills._")
 
-max_skills = 15
+max_skills = 10
 
 col1, col2 = st.columns([1, 4])
 with col1:
@@ -160,7 +159,6 @@ with col2:
         options=available_skills,
         help="Choose your strongest technical and analytical skills.",
         max_selections=max_skills,
-        # format_func=lambda x: x.capitalize(),
         key="skill_multiselect"
     )
 
@@ -179,7 +177,7 @@ if st.button("🚀 Predict Best Role"):
         with st.spinner("🔎 Analyzing your profile..."):
             job_title, confidence = predict_top_job(user_summary, user_skills)
             missing_skills = get_missing_skills(job_title, selected_skills)
-            top_n_matched, total_top_n = get_top_skill_match_percentage(job_title, selected_skills, top_n=15)
+            top_n_matched, total_top_n = get_top_skill_match_percentage(job_title, selected_skills, top_n=10)
 
         # Save results to session_state
         st.session_state.predicted = True
@@ -200,19 +198,31 @@ if st.session_state.get("predicted"):
     st.success(f"🎯 **Predicted Role:** `{job_title}`")
     st.markdown(f"📊 **Confidence Score:** `{confidence:.2f}`")
 
-    # Skill breakdown
+    # ---------------------------------------------------------
+    # 📋 Modified Skills Evaluation Section
+    # ---------------------------------------------------------
     st.markdown("---")
     st.subheader("📋 Skills Evaluation")
 
-    st.markdown("##### 🔎 Top 15 Skills Match")
-    st.info(f"✅ You're aligned with {top_n_matched}/{total_top_n} of the most critical skills for the {job_title} role.")
+    st.markdown("##### 🔎 Top 10 Skills Match")
 
-    if top_n_matched >= 13:
-        st.success(f"🎉 Excellent! You possess most of the core skills for the `{job_title}` role.")
+    match_percentage = (top_n_matched / total_top_n) * 100 if total_top_n > 0 else 0
+    st.info(f"✅ You match **{top_n_matched}/{total_top_n}** of the top 10 most important skills for the **{job_title}** role.")
+    st.progress(match_percentage / 100)
+    st.markdown(f"**Match Percentage:** {match_percentage:.1f}%")
+
+    if match_percentage >= 80:
+        st.success(f"🎉 Excellent! You already possess most of the top skills required for a `{job_title}`.")
+    elif match_percentage >= 50:
+        st.warning(f"💡 You're halfway there! Consider reviewing the top required skills in the next section below.")
     else:
-        st.warning(f"⚠️ Here are some additional skills from the top 50 required for the {job_title} role that you might not currently have.")
-        if missing_skills:
-            st.markdown("🔻 " + ", ".join(f"`{s}`" for s in missing_skills))
+        st.error(f"🚀 You may need to strengthen your skillset. Check the **Top Skills for This Role** section below to see which skills to focus on.")
+
+    st.markdown(
+        "> 📘 **Tip:** Scroll down to the next section to explore the most in-demand skills for this role "
+        "and identify what you can learn next."
+    )
+    # ---------------------------------------------------------
 
     # Top skill bar chart
     st.markdown("---")
